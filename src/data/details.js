@@ -8,13 +8,13 @@ module.exports = {
 
 
   // Your twitter handle
-  twitter: null,
+  twitter: djtlmd,
 
   // Your name
-  name: null,
+  name: Daniel Turner-Lloveras,
 
   // The event we are at
-  event: "Smashing Conference",
+  event: "DTL Conference",
 
   // The repository to which this site is linked
   repo : process.env.REPOSITORY_URL
@@ -29,7 +29,7 @@ module.exports = {
 
   // Something to tweet which includes a link to
   // this instance of the example site
-  tweet: `I just went from zero to deployed on @Netlify in a matter of seconds!
+  tweet: `I just went from zero to 100 real quick on @Netlify in a matter of seconds!
 Take a look at my site at ${process.env.URL || 'https://playwith.netlify.com'}!
 #SwitchToNetlify at #SmashingConf`,
 
